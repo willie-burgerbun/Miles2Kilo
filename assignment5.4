@@ -1,1 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.printf("%-10s %s%n", "Miles", "Kilometers");  // Table header
+        for (int miles = 1; miles <= 10; miles++) { // Loop through miles 1 to 10
+            double kilometers = miles * 1.609;  // Conversion factor changing miles to kilometers
+            System.out.printf("%-10d %.3f%n", miles, kilometers);  // Print each line of the table with 3 decimal places
+        }// End for Loop
+    }
+}
 
